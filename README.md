@@ -1,4 +1,6 @@
-# 2.4 GHz RF Front-End KiCad Project
+﻿# 2.4 GHz RF Front-End KiCad Project
+
+> Public archive note: this repository is a portfolio/demo-safe version prepared from private working repositories/materials; sensitive details, credentials, raw logs, and proprietary context are intentionally omitted.
 
 This is a real KiCad project scaffold for a compact 2.4 GHz RF front end, not a portfolio mockup.
 
@@ -33,4 +35,3 @@ Before ordering, replace the generic SMA edge-launch and SOT-363 amplifier footp
 3. Calibrate the VNA to the SMA reference plane.
 4. Measure S11 and S21 from 2.3 GHz to 2.6 GHz.
 5. Re-tune L1/C2 to center the match across 2.4 GHz to 2.5 GHz.
-
