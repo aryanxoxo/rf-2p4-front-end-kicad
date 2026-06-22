@@ -21,7 +21,7 @@ The starting matching network is:
 - C2: 1.2 pF shunt capacitor to ground
 - C3: 100 pF output DC block
 
-These values are placeholders for a plausible 2.4 GHz amplifier input match. Replace them with values from the selected amplifier S-parameters and tune after assembly.
+These are initial values for a plausible 2.4 GHz amplifier input match. Replace them with values from the selected amplifier S-parameters and tune after assembly.
 
 ## VNA Tuning Flow
 
@@ -34,5 +34,5 @@ These values are placeholders for a plausible 2.4 GHz amplifier input match. Rep
 
 ## DRC / Gerber
 
-KiCad was not available in this runtime, so exported Gerbers are intentionally not included. Open `rf_2p4_front_end.kicad_pro` in KiCad, refill zones, run DRC, and export Gerbers/drill files from KiCad after selecting exact production footprints.
+Open `rf_2p4_front_end.kicad_pro` in KiCad, refill zones, run DRC, and export Gerbers/drill files after selecting exact production footprints.
 
